@@ -1,0 +1,54 @@
+{
+  "n_rows": 569,
+  "n_features": 30,
+  "benign": 357,
+  "malignant": 212,
+  "radius_median_benign": 12.2,
+  "radius_median_malignant": 17.33,
+  "area_worst_median_benign": 547.0,
+  "area_worst_median_malignant": 1303.0,
+  "texture_d": 0.95,
+  "corr_radius_perimeter": 0.998,
+  "corr_radius_area": 0.987,
+  "pairs_above_0.9": 21,
+  "two_feature_cv_accuracy": 0.949,
+  "top3_features": [
+    [
+      "concave_points_worst",
+      2.6
+    ],
+    [
+      "perimeter_worst",
+      2.37
+    ],
+    [
+      "concave_points_mean",
+      2.33
+    ]
+  ],
+  "n_large_effect": 20,
+  "mean_d_by_group": {
+    "mean": 1.41,
+    "se": 0.58,
+    "worst": 1.6
+  },
+  "weakest": [
+    [
+      "symmetry_se",
+      -0.01
+    ],
+    [
+      "texture_se",
+      -0.02
+    ],
+    [
+      "fractal_dimension_mean",
+      -0.03
+    ]
+  ],
+  "pc1_var": 0.443,
+  "pc2_var": 0.19,
+  "components_for_90pct": 7,
+  "all_feature_cv_accuracy": 0.981,
+  "pc12_cv_accuracy": 0.953
+}
